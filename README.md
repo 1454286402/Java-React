@@ -4,7 +4,7 @@
 
 #### 软件架构
 软件架构说明
- front-app是前端项目
+ front-app是前端项目（因为前端已经有仓库） 地址：https://gitee.com/LEMAI-JIJING/react-app-2025.git
  back是后端项目（基于gitee上的开源项目）
 
 #### 安装教程
