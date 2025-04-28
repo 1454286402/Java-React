@@ -18,8 +18,8 @@ import com.aliyuncs.profile.DefaultProfile;
 public class AliSms {
     public static String sendSms(String phoneNumber,String code){
        //输入自己的 ALIYUN_ACCESS_KEY_ID，ALIYUN_ACCESS_KEY_SECRET
-        DefaultProfile profile = DefaultProfile.getProfile("cn-shenzhen", "ALIYUN_ACCESS_KEY_ID",
-                "ALIYUN_ACCESS_KEY_SECRET");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-shenzhen", "",
+                "");
         IAcsClient client = new DefaultAcsClient(profile);
         CommonRequest request = new CommonRequest();
         request.setSysMethod(MethodType.POST);
